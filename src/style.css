@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.listNav, .listMap{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+}
+
+.list{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.square{
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+.square:not(:last-child){
+  margin-right: 5px;
+}
